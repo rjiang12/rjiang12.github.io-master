@@ -1,0 +1,1 @@
+Everytime a new blog is added, update content.json
