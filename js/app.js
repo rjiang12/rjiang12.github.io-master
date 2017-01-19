@@ -36,7 +36,7 @@ app.run(function ($rootScope) {
 
 app.controller('AppCtrl', function ($scope, $http, $state, $location) {
 	window.componentHandler.upgradeAllRegistered();
-	$scope.content_title = "Blog";
+	$scope.content_title = "Materials";
 
 	var folderName = null;
 
@@ -66,7 +66,7 @@ app.controller('AppCtrl', function ($scope, $http, $state, $location) {
 		} else {
 			// go up
 			$scope.links = $scope.contents;
-			$scope.content_title = "Blog";
+			$scope.content_title = "Materials";
 		}
 	};
 
