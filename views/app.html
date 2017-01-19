@@ -65,7 +65,7 @@
 	<div class="mdl-layout__drawer" id="drawer">
 		<span class="mdl-layout-title">{{ content_title }}</span>
 		<nav class="mdl-navigation">
-			<a ng-if="content_title !== 'Blog'" class="mdl-navigation__link" href="" ng-click="linkClick('back')"><i class="material-icons">keyboard_backspace</i>Back</a>
+			<a ng-if="content_title !== 'Materials'" class="mdl-navigation__link" href="" ng-click="linkClick('back')"><i class="material-icons">keyboard_backspace</i>Back</a>
 			<a ng-repeat="link in links" class="mdl-navigation__link" href="" ng-click="linkClick(link.name)">{{link.name}}</a>
 		</nav>
 	</div>
